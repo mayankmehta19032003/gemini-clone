@@ -24,7 +24,7 @@ const Main = () => {
                         <img src={assets.bulb_icon} alt="" />
                     </div>
                     <div className="card">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus, accusamus nemo optio beatae non libero quos doloribus!</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit nemo optio beatae non libero quos doloribus!</p>
                         <img src={assets.message_icon} alt="" />
                     </div>
                     <div className="card">
