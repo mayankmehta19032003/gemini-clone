@@ -8,7 +8,6 @@ const ContextProvider = (props) => {
 
     const [input, setInput] = useState("");
     const [recentPrompt, setRecentPrompt] = useState("");
-    const [prevPrompts, setPrevPrompts] = useState("");
     const [showResult, setShowResult] = useState(false);
     const [loading, setLoading] = useState(false);
     const [resultData, setResultData] = useState("");
@@ -28,7 +27,7 @@ const ContextProvider = (props) => {
         setRecentPrompt(input);
         const respone = await run(input)
         let responseArray = respone.split("**");
-        let newResponse;
+        let newResponse ="";
         for(let i = 0; i< responseArray.length;i++){
             if( i === 0 || i%2 !== 1){
                 newResponse += responseArray[i];
@@ -51,8 +50,6 @@ const ContextProvider = (props) => {
     }
 
     const contextValue = {
-        prevPrompts,
-        setPrevPrompts,
         onSent,
         setRecentPrompt,
         recentPrompt,
