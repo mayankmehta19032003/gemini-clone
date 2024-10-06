@@ -4,7 +4,7 @@ A **Gemini Clone** built using **React** and **Gemini API**. This project replic
 
 ## Table of Contents
 
-- [Demo](https://gemini-clone-k4r25ppfe-mayank-mehtas-projects.vercel.app/)
+- [Demo](https://gemini-clone-omega-three.vercel.app/)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
@@ -13,7 +13,7 @@ A **Gemini Clone** built using **React** and **Gemini API**. This project replic
 
 ## Demo
 
-You can view the live demo of the project [here](https://gemini-clone-k4r25ppfe-mayank-mehtas-projects.vercel.app/).
+You can view the live demo of the project [here](https://gemini-clone-omega-three.vercel.app/).
 
 ## Features
 
