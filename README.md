@@ -61,15 +61,13 @@ To get a local copy up and running, follow these steps:
     npm run dev
     ```
 
-The app will be running on `http://localhost:3000/`.
-
+   The app will be running on `http://localhost:5173/`.
 
 ## Gemini API Integration
 
 This project uses the **Gemini API** to fetch data. You will need to get your API key and add it to your environment variables file (`.env`). 
 
 Make sure you handle the API calls securely and don't expose sensitive information in public repositories.
-
 
 ## Contributing
 
